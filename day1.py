@@ -4,7 +4,7 @@ digit_map = {'fiveight':'58', 'nineight':'98', 'threeight':'18', 'oneight':'18',
 with open("codes.txt", "r") as file:
     lines = [line.strip() for line in file.readlines()]
 
-print(lines)
+
 
 def sum_of_line(s):
     i = 0
